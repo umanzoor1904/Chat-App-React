@@ -1,0 +1,87 @@
+:root{
+  --sec: #3282b8; 
+}
+
+.App {
+  text-align: left;
+  background-color: #313131;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1{
+  color: #ececec;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 22px !important;
+}
+
+.messages::-webkit-scrollbar{
+  display: none;
+}
+
+
+.formContainer{
+  align-self: center;
+  width: 95%;
+}
+
+
+.form{
+  height: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  width: 90%;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: #515151;
+}
+
+.formControl{
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.input{
+  flex: 1;
+  color: #ececec !important;
+}
+
+.input:after{
+  border-bottom:2px solid var(--sec) !important;
+}
+
+.iconButton{
+  flex: 0;
+  color: var(--sec) !important;
+}
+
+.iconButton:disabled{
+  color: #717171 !important;
+}
+
+
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 20px;
+  }
+  
+  h3{
+    font-size: 16px !important;
+  }
+
+  .form{
+    height: 20px;
+    padding: 15px;
+    width: 85%;
+  }
+}
