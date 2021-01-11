@@ -2,5 +2,9 @@
  
 A chat app created using ReactJS and Firebase.
  
-Click on this link for a live demo:
-https://chatapp-react-e7a4c.web.app/
+Demo: https://chatapp-react-e7a4c.web.app/
+
+# Libraries Used
+
+https://material-ui.com/ \
+https://github.com/joshwcomeau/react-flip-move
